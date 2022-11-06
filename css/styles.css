@@ -1,0 +1,105 @@
+
+.navbar{
+    background-color: #343a40;
+    --bs-navbar-color: #ffc900;
+    --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 0, 0, 0.99%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: #ffc900;
+}
+.hero{
+    background-color: rgba(0,0,0,1);
+    filter:brightness(0.4);
+}
+.carousel-caption{
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    left: 30%;
+    color: #fff;
+    text-align: justify;
+}
+.carousel-item{
+    float: left;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+.orador{
+    margin: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.orador span{
+    display: block;
+    font-size: 3rem;
+}
+.dividido{
+    background-color: #343a40;
+}
+.ini_form{
+    text-align: center;
+}
+.ini_form span{
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+.ini_form span:hover{
+    color: blue;
+}
+textarea{
+    height: 8rem;
+    resize: none;
+}
+
+
+
+   /* TICKETS */
+    
+   /* TAGS */
+#compra{
+    margin: 1rem;
+}
+.valores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2rem;
+}
+.precio{
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+.precio h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.precio p:nth-child(2){
+    font-size: 1.2rem;
+}
+.precio p:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.precio p:last-child{
+    font-size: 0.8rem;
+}
+
+    /* TEXTOS INFO COMPRA */
+.medioUno{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+.medioDos{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+    /* FORMULARIO */
+.boton{
+    width: 100%;
+}
